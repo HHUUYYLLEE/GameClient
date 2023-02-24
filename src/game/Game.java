@@ -135,8 +135,7 @@ public class Game extends JPanel implements Runnable{
 		
 		if(playerTurn == true) {
 			
-			playerCardsPlayed.clear();
-			playerCardsPlayedDraw.clear();
+			
 			
 			
 			selectCard();
@@ -604,7 +603,8 @@ public class Game extends JPanel implements Runnable{
 				});
 				opponentHandNumber -= opponentCardsPlayed.size();
 				opponentCardsPlayedDraw = new ArrayList<Card>(opponentCardsPlayed);
-				
+				playerCardsPlayed.clear();
+				playerCardsPlayedDraw.clear();
 			}
 			 playerTurn = true;
 			 //check if opponent wins
