@@ -57,7 +57,7 @@ public class UI {
 	//menu account buttons
 	protected final int buttonLoginX, buttonLoginY = 600,
 						buttonLogoutX, buttonLogoutY = 410,
-						buttonSignupX, buttonSignupY = 210,
+						buttonSignupX, buttonSignupY = 610,
 						buttonBackAccountX, buttonBackAccountY = 510;
 	
 	//menu account signup buttons
@@ -129,7 +129,7 @@ public class UI {
 		//menu account buttons
 		buttonLoginX = 400;
 		buttonLogoutX = 350;
-		buttonSignupX = 410;
+		buttonSignupX = 610;
 		buttonBackAccountX = 350;
 		
 		//menu account signup buttons
